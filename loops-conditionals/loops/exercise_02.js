@@ -18,3 +18,20 @@
     You made it!
     All done!
 */
+
+for (let num = 1; num <= 100; num++) {
+
+  if (num % 10 === 0 && num !== 50 && num !== 100) {
+    console.log(`Checkpoint! ${num}`);
+  }
+
+  if (num === 50) {
+    console.log("Halfway there!");
+  }
+
+  if (num === 100) {
+    console.log("You made it!");
+  }
+}
+
+console.log("All done!");
