@@ -6,12 +6,12 @@
 
 // 1.
 console.log("Even numbers between 10 and 40:");
-for (let i = 10; i <= 40; i += 2) {
-  console.log(i);
+for (let num = 10; num <= 40; num += 2) {
+  console.log(num);
 }
 
 // 2.
 console.log("Odd numbers between 10 and 40:");
-for (let i = 11; i <= 40; i += 2) {
-  console.log(i);
+for (let num = 11; num <= 40; num += 2) {
+  console.log(num);
 }

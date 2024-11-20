@@ -8,29 +8,22 @@
     7. At the end of the program, print out: "--- Animal check complete ---"
     8. Change the animal to different values to make sure it works in all cases
 */
-// 1.
+
 console.log("--- Animal Checker Program ---");
 
-// 2.
 let animal = "cat";
 
-// 3.
 if (animal === "cat") {
-  // 4.
   console.log("Meow!");
 } 
-// 5.
 else if (animal === "dog") {
   console.log("Woof!");
-} 
-// 6.
+}
 else {
   console.log("Must be an alien");
 }
 
-// 7.
 console.log("--- Animal check complete ---");
 
-// 8.
 animal = "dog";
 
